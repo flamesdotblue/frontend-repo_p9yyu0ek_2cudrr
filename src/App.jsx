@@ -1,5 +1,5 @@
 import { motion } from 'framer-motion';
-import { Mail, ArrowRight } from 'lucide-react';
+import { Mail, ArrowRight, Discord, Instagram, Twitter } from 'lucide-react';
 import Hero from './components/Hero';
 import About from './components/About';
 import Projects from './components/Projects';
@@ -91,9 +91,19 @@ function App() {
                     <p className="font-medium text-white">Focus</p>
                     <p>Web · Motion · Identity</p>
                   </div>
-                  <div>
+                  <div className="col-span-2">
                     <p className="font-medium text-white">Social</p>
-                    <a className="underline underline-offset-4 hover:text-white" href="#">Dribbble</a>
+                    <div className="mt-2 flex flex-wrap gap-2">
+                      <a href="#" className="inline-flex items-center gap-2 rounded-full border border-white/10 bg-white/5 px-3 py-1.5 text-xs font-medium text-white/80 backdrop-blur-xl transition-colors hover:bg-white/10">
+                        <Discord className="h-3.5 w-3.5" /> Discord
+                      </a>
+                      <a href="#" className="inline-flex items-center gap-2 rounded-full border border-white/10 bg-white/5 px-3 py-1.5 text-xs font-medium text-white/80 backdrop-blur-xl transition-colors hover:bg-white/10">
+                        <Instagram className="h-3.5 w-3.5" /> Instagram
+                      </a>
+                      <a href="#" className="inline-flex items-center gap-2 rounded-full border border-white/10 bg-white/5 px-3 py-1.5 text-xs font-medium text-white/80 backdrop-blur-xl transition-colors hover:bg-white/10">
+                        <Twitter className="h-3.5 w-3.5" /> X
+                      </a>
+                    </div>
                   </div>
                 </div>
               </motion.div>
