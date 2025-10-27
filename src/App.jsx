@@ -82,16 +82,10 @@ function App() {
                 className="relative overflow-hidden rounded-2xl border border-white/10 bg-gradient-to-b from-white/[0.04] to-white/[0.02] p-6"
               >
                 <div className="pointer-events-none absolute -top-24 -right-24 h-64 w-64 rounded-full bg-indigo-300/10 blur-3xl" />
-                <h3 className="text-lg font-semibold">Availability</h3>
-                <p className="mt-2 text-white/70">Worldwide · Remote-first</p>
-                <div className="mt-6 grid grid-cols-2 gap-4 text-sm text-white/70">
+                <div className="mt-2 grid grid-cols-2 gap-4 text-sm text-white/70">
                   <div>
                     <p className="font-medium text-white">Email</p>
                     <p>hello@studio.xyz</p>
-                  </div>
-                  <div>
-                    <p className="font-medium text-white">Timeline</p>
-                    <p>2–6 weeks</p>
                   </div>
                   <div>
                     <p className="font-medium text-white">Focus</p>

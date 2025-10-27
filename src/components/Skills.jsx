@@ -1,11 +1,10 @@
 import { motion } from 'framer-motion';
-import { Code, Cpu, Zap, Star } from 'lucide-react';
+import { Code, Cpu, Zap } from 'lucide-react';
 
 const skills = [
   { title: 'Framer Motion', level: 'Expert', icon: Zap },
   { title: 'React / Vite', level: 'Advanced', icon: Code },
   { title: 'WebGL / Spline', level: 'Advanced', icon: Cpu },
-  { title: 'Design Systems', level: 'Advanced', icon: Star },
 ];
 
 export default function Skills() {
@@ -23,7 +22,7 @@ export default function Skills() {
           <h2 className="mt-3 text-3xl font-extrabold tracking-tight sm:text-4xl md:text-5xl">Craft & Capabilities</h2>
         </motion.div>
 
-        <div className="mt-10 grid grid-cols-1 gap-6 md:grid-cols-4">
+        <div className="mt-10 grid grid-cols-1 gap-6 md:grid-cols-3">
           {skills.map((s, i) => (
             <SkillCard key={i} s={s} i={i} />
           ))}
